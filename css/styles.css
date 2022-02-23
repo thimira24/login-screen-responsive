@@ -1,0 +1,137 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+/* colors*/
+/*Heading styles*/
+h1,
+h2 {
+  margin-bottom: 36px;
+  font-size: 1.875rem;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "product sans", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.left-grid {
+  height: 98vh;
+}
+
+.left-image {
+  height: 98vh;
+  width: 100%;
+}
+
+/* Right column */
+.right-grid {
+  margin: auto;
+}
+
+.greeting-text {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+#text-input-labels {
+  color: #4a5568;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.space {
+  height: 12px;
+}
+
+.form-check {
+  margin-top: 20px;
+}
+
+.text-links {
+  font-size: 14px;
+}
+
+#forgot-password {
+  color: #2b6cb0;
+  font-size: 14px;
+  margin-left: 86px;
+}
+
+input[type=text],
+[type=Password],
+select {
+  height: 50px;
+}
+
+.icon-google {
+  width: 28px;
+}
+
+.btnPrimary {
+  background-color: #04c35c;
+  border-radius: 5px;
+  border: #04c35c;
+  display: block;
+  font-size: 1rem;
+  height: 50px;
+  margin: 20px 0px;
+  width: 350px;
+}
+
+.btnDark {
+  background-color: #2d3748;
+  border: #04c35c;
+  border-radius: 5px;
+  display: block;
+  font-size: 1rem;
+  height: 50px;
+  width: 350px;
+}
+
+.registration-div {
+  text-align: center;
+  height: 200px;
+}
+
+#reg.link {
+  font-size: 1rem;
+  margin-top: 190px;
+  text-align: center;
+}
+
+.footer-right {
+  background-color: white;
+}
+
+footer {
+  background-color: transparent;
+  bottom: 0;
+  color: white;
+  position: fixed;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .left-grid {
+    display: none;
+  }
+
+  .right-grid {
+    margin-top: 120px;
+  }
+}/*# sourceMappingURL=styles.css.map */
